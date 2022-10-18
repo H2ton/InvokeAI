@@ -1,0 +1,18 @@
+POST http://localhost:8000/img2img/
+Content-Type: application/json
+
+{
+  "base_base64": "",
+  "seed": -1,
+  "width": 1920,
+  "height": 1280,
+  "prompt": "",
+  "step": 50,
+  "scale": 7.5,
+  "strength": 0.8,
+  "eta": 0,
+  "sampler_name": "ddim",
+  "fit": false,
+  "iterations": 1,
+  "img_quality": 84
+}

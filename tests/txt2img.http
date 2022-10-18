@@ -1,0 +1,15 @@
+POST http://localhost:8000/txt2img/
+Content-Type: application/json
+
+{
+  "seed": -1,
+  "width": 512,
+  "height": 512,
+  "prompt": "blue sky and red house",
+  "step": 50,
+  "scale": 7.5,
+  "eta": 0,
+  "sampler_name": "k_euler",
+  "iterations": 1,
+  "img_quality": 84
+}
